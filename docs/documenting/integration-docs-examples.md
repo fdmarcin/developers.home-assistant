@@ -201,7 +201,7 @@ To use this condition in an automation:
 2. Open an existing automation, or select **Create automation** > **Create new automation**.
 3. In the **And if** section, select **Add condition**.
 4. From the search box, search for and select **Light: Light is on**.
-5. Select what you want to check. Under **By target** (see [Targets](#targets)), pick the area your ... sensor is in (like your living room or bedroom).
+5. Select what you want to check. Under **By target** (see [Targets](#targets)), pick the area your ... is in (like your living room or bedroom).
    You can also select a floor, a device, a specific entity, or a label.
 6. Under **Condition passes if** (see [Behavior](#behavior-with-multiple-targets)), pick **Any** or **All**.
 7. Select **Save**.
