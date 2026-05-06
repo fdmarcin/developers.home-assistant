@@ -143,8 +143,11 @@ For all supported languages, see the [list of Rouge lexers](https://github.com/r
 
 - Instead of the file's extension (`.markdown`, `.md`, `.mdx`), use a forward slash.
   For example: `[ZBT-2](/connect/zbt-2/)` instead of `[ZBT-2](/connect/zbt-2.markdown)`.
-- When linking to pages in the same repository, use links that start from the repository root.
-  For example: `[ZBT-2](/connect/zbt-2/)` instead of `[ZBT-2](https://www.home-assistant.io/connect/zbt-2/)`.
+- When linking to pages in the same repository:
+  - Use absolute links, but ignore the `source` directory.
+  - Ignore the leading underscore (`_`) in the first directory.
+
+  For example, to link to `source/_integrations/date.markdown`, use: `[Date](/integrations/date/)`.
 - Do not use affiliate or tracking links.
 - Do not use bare URLs: `https://example.org` or `<https://example.org>`.
 
